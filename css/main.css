@@ -93,6 +93,11 @@ body:not(:has(a[href="#home"].active)) .navbar {
   animation: nav forwards 0.9s;
   transition: all 0.3s ease;
 }
+
+body:not(:has(a[href="#home"].active)) .nav-item a.active {
+  color: var(--gray-color) !important;
+}
+
 body:not(:has(a[href="#home"].active)) .navbar .nav-link,
 body:not(:has(a[href="#home"].active)) .navbar .social-links {
   color: #000 !important;
