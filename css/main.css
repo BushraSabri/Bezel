@@ -606,8 +606,7 @@ textarea.form-control {
 /*~ media query*/
 /* ^ Navigation Bar */
 
-/*^ لما الشاشة صغيرة أقل من 992px (Bootstrap lg) */
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
   .navbar-collapse {
     overflow: hidden;
     max-height: 0;
@@ -645,10 +644,6 @@ textarea.form-control {
     left: 0;
     top: 100%;
   }
-}
-
-/*^ header content*/
-@media (max-width: 992px) {
   .carousel-item .carousel-text h1 {
     font-size: 80px;
   }
